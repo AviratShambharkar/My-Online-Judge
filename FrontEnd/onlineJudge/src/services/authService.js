@@ -1,7 +1,7 @@
 // src/services/authService.js
 import axios from "axios";
 
-const API_URL = "http://localhost:3000";
+const API_URL = "https://backend.hackathonhub.online";
 
 export const login = async (email, password) => {
   try {

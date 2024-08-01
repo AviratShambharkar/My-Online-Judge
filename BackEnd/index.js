@@ -23,7 +23,7 @@ const port = 3000;
 
 app.use(
   cors({
-    origin: "https://www.hackathonhub.online",
+    origin: "https://hackathonhub.online",
     credentials: true,
   })
 );

@@ -20,6 +20,7 @@ export const getAllProblems = async (req, res) => {
     const problems = await Problem.find();
     res.status(200).json(problems);
   } catch (error) {
+    console.error("Error fetching all problems:", error);
     res.status(500).json({ message: "Internal server error" });
   }
 };

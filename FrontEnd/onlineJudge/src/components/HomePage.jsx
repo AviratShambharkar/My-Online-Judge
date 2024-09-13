@@ -129,7 +129,7 @@ function HomePage() {
               <option value="matrix">Matrix</option>
               <option value="bit manipulation">Bit Manipulation</option>
               <option value="two pointers">Two Pointers</option>
-              <option value="binary tree">Bniary Tree</option>
+              <option value="binary tree">Binary Tree</option>
               <option value="heap(priority queue)">Heap(Priority Queue)</option>
               <option value="prefix sum">Prefix Sum</option>
               <option value="stack">Stack</option>
